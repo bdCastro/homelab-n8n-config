@@ -14,7 +14,7 @@ services:
       N8N_SSL_CERT: ${N8N_SSL_CERT}
       N8N_SSL_KEY: ${N8N_SSL_KEY}
     volumes:
-      - n8n_data:/home/node/.n8n
+      - data:/home/node/.n8n
 
 volumes:
-  n8n_data:
+  data:
