@@ -16,6 +16,7 @@ services:
       N8N_SSL_KEY: ${N8N_SSL_KEY}
     volumes:
       - data:/home/node/.n8n
+      - ./ssl:/opt/custom-certificates
 
 volumes:
   data:
